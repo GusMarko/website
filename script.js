@@ -7,7 +7,7 @@ function searchArtist() {
 
   // structure of api URL with query strings
   // CHANGE PLACEHOLDERS AFTER DEPLOYING BACKEND RESOURCES ///////////////////////////
-  const apiUrl = `https://d2de6ekk11rbut.cloudfront.net/spotify?artist=${artistName}&type=${dataType}`;
+  const apiUrl = `https://5szc7r1m7k.execute-api.eu-central-1.amazonaws.com/dev/spotify?artist=${artistName}&type=${dataType}`;
 
   // making request to api gateway (fetch) that triggers lambda function
   fetch(apiUrl)
